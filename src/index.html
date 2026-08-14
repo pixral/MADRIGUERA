@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; img-src https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src https://graphql.anilist.co; font-src 'self'">
+  <title>Madriguera</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Madriguera</span>
+      <span class="brand-sub">a descent engine for the overlooked</span>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn" data-act="tab" data-view="home">Descend</button>
+      <button class="nav-btn" data-act="tab" data-view="daily">Daily gem</button>
+      <button class="nav-btn" data-act="tab" data-view="haul">Haul</button>
+      <button class="nav-btn" data-act="tab" data-view="atlas">Atlas</button>
+    </nav>
+    <label class="country">
+      <span class="country-label">Origin</span>
+      <select id="country-select">
+        <option value="ALL">All</option>
+        <option value="KR">Manhwa (KR)</option>
+        <option value="JP">Manga (JP)</option>
+        <option value="CN">Manhua (CN)</option>
+      </select>
+    </label>
+  </header>
+
+  <main id="app"></main>
+
+  <div id="note" class="note" role="status"></div>
+
+  <footer class="foot">
+    Data: <a href="https://anilist.co" target="_blank" rel="noreferrer">AniList</a> &middot; nothing leaves your machine except AniList queries.
+  </footer>
+
+  <script src="js/scoring.js"></script>
+  <script src="js/descent.js"></script>
+  <script src="js/daily.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

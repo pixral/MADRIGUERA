@@ -1,0 +1,16 @@
+{
+  "name": "madriguera",
+  "version": "0.1.0",
+  "description": "A rabbit-hole descent engine for discovering obscure manga & manhwa.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Luciano + Claude",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "jsdom": "^24.1.3"
+  }
+}
