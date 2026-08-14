@@ -1,5 +1,7 @@
 # Madriguera
 
+**English** | [Español](README.es.md)
+
 *A descent engine for the overlooked.*
 
 Madriguera is a desktop app for people who enjoy **finding** things more than having found them. You pick a manga/manhwa you love (or enter through a "vein" like *hidden-gem romance manhwa*), and the app walks AniList's recommendation and tag graph like a roguelike run: every step offers up to three passages, and the deeper you go, the harder it biases toward **high-quality works almost nobody has read**.
@@ -16,7 +18,7 @@ The "gem score" is quality × obscurity: a 78%-scored work with 2k readers outra
 ```bash
 npm install
 npm start        # Electron window
-npm test         # 47 tests: unit + full jsdom UI walkthrough
+npm test         # 48 tests: unit + full jsdom UI walkthrough
 ```
 
 No API key needed — AniList's GraphQL API is open and CORS-enabled. `src/index.html` also opens directly in a browser if you ever want it without Electron.
