@@ -47,9 +47,3 @@ test/                 node:test units + jsdom integration walkthrough
 ```
 
 Everything stays on your machine except AniList queries. Adult-flagged entries are excluded at both the query and branch-generation layers.
-
-## Ideas for the next shaft
-
-- A **games shaft**: same descent mechanics over RAWG or IGDB (needs an API key; `api.js`'s pattern transplants directly).
-- **Vein bookmarks**: pin a tag from the Atlas as a custom vibe entrance.
-- **Seasonal expeditions**: weekly themed veins ("KR one-shots of the 2010s").
