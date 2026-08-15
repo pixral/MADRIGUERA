@@ -48,9 +48,3 @@ test/                 unitarios con node:test + recorrido de integración jsdom
 ```
 
 Todo queda en tu máquina salvo las consultas a AniList. Las entradas marcadas como adultas se excluyen tanto en la consulta como en la generación de ramas.
-
-## Ideas para el próximo pozo
-
-- Un **pozo de juegos**: la misma mecánica de descenso sobre RAWG o IGDB (requiere API key; el patrón de `api.js` se trasplanta directo).
-- **Vetas favoritas**: fijar un tag del Atlas como entrada de vibra personalizada.
-- **Expediciones de temporada**: vetas temáticas semanales ("one-shots coreanos de los 2010s").
