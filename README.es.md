@@ -2,7 +2,6 @@
 
 [English](README.md) | **Español**
 
-*Un motor de descenso para lo inadvertido.*
 
 Madriguera es una app de escritorio para gente que disfruta más **encontrar** cosas que haberlas encontrado. Elegís un manga/manhwa que te guste (o entrás por una "veta" como *manhwa romántico joya oculta*), y la app recorre el grafo de recomendaciones y tags de AniList como una run de roguelike: cada paso te ofrece hasta tres pasajes, y cuanto más profundo bajás, más se inclina hacia **obras de alta calidad que casi nadie leyó**.
 
