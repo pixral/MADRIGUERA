@@ -2,8 +2,6 @@
 
 **English** | [Español](README.es.md)
 
-*A descent engine for the overlooked.*
-
 Madriguera is a desktop app for people who enjoy **finding** things more than having found them. You pick a manga/manhwa you love (or enter through a "vein" like *hidden-gem romance manhwa*), and the app walks AniList's recommendation and tag graph like a roguelike run: every step offers up to three passages, and the deeper you go, the harder it biases toward **high-quality works almost nobody has read**.
 
 - **Descend** — each node offers: **Go deeper** (best hidden gem under a shrinking popularity cap), **Stay level** (the community's strongest recommendation), **Wildcard** (a random find in the same tag vein). Works you've visited never resurface.
